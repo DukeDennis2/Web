@@ -20,6 +20,13 @@ On terminal, run npm install, this will install all the dependencies listed with
 
 Then run npm start, this will start the server and you can view the application at http://localhost. 
 
+### Push + Pull changes to your github [developer's info]
+    1. git init
+    2. git remote add origin https://github.com/DukeDennis2/Web.git
+    3. git remote -v
+    4. git add .
+    5. git commit -m "Your commit message"
+    6. git push origin main
 
 ### More
 

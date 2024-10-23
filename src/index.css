@@ -3,8 +3,8 @@
     --primary-color: #0d0d0d;
     --secondary-color: #fff;
     --text-color: #fff;
-    --text-color-2: #fff;
-    --text-color-3: rgb(86, 83, 83);
+    --text-color-2: rgb(255, 255, 255);
+    --text-color-3: rgb(247, 247, 247);
     --overlay-color: rgb(12 12 12 / 63%);
 }
 
@@ -14,8 +14,8 @@
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
-    --text-color-3: rgb(155, 151, 151);
-    --overlay-color: rgb(255 255 255 / 70%);
+    --text-color-3: rgb(255, 255, 255);
+    --overlay-color: rgba(241, 241, 241, 0.7);
 }
 
 html,
