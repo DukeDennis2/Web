@@ -12,28 +12,79 @@ const introdata = {
         third: "I love creating ",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/464100364_9339202609428977_4607884385177834473_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9hqnQEXeT08Q7kNvgHcYHKG&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AlHukrEevHeLAY8tduNdybx&oh=00_AYDroeyS-v7Rb_R4Xq9Q-igFQcJxgAE-6P3oVAxUgw3HRw&oe=671E899C",
+    your_img_url: "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/464100364_9339202609428977_4607884385177834473_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DEKeCFkc3-sQ7kNvgHNcEIS&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AJkzMUedQ32bFgpwmGpwg8O&oh=00_AYAhYO9dJAeT8u51jv3bs9WNfwdlkIyNl-VSfIbGtF3WLw&oe=6734121C",
 };
 
 const dataabout = {
     title: "a bit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am a recent Computer Science Bsc (Hons) graduate at De Montfort University (DMU) in Leicester United Kingdom. I am a cunning, resilient, and determined individual with a passion for continuous learning. I strive to develop new skills that I can apply practically, both in my work and daily life. My goal is to adapt and grow, staying versatile and prepared to tackle challenges, especially in the fast-evolving field of AI + Technology.  ",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+
+const achievements = [{
+        awardtitle: "Attained Computer Science Bsc (Hons) degree",
+        where: "DMU",
+        date: "2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        awardtitle: "Teammate of the season award (Basketball team)",
+        where: "DMU ",
+        date: "2024",
     },
     {
-        jobtitle: "Designer of week",
+        awardtitle: "Teammate of the season award (Basketball team)",
+        where: "DMU",
+        date: "2023",
+    },
+    {
+        awardtitle: "Completed Backend Development and API course",
+        where: "FreeCodeCamp",
+        date: "2024",
+    },
+    {
+        awardtitle: "Completed the 5 day Coding Challenge",
+        where: "Code Institute",
+        date: "2024",
+    },
+    {
+        awardtitle: "Selected to participate at the Antwerp basketball Tournament in Belgium",
+        where: "DMU",
+        date: "2023",
+    },
+    {
+        awardtitle: "Attained A*A*A in my CTEC HE Diploma ",
+        where: "JHN",
+        date: "2021",
+    },
+    {
+        awardtitle: "Received award for outstanding progress in A-Levels",
+        where: "DMU",
+        date: "2021",
+    },
+    {
+        awardtitle: "Played for my Secondary School's basketball team and being the best team in our district",
+        where: "JHN",
+        date: "2014-2021",
+    },
+    {
+        awardtitle: "",
         where: "ALquds",
         date: "2019",
     },
+];
+
+const services = [{
+    title: "UI & UX Design",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+},
+{
+    title: "Mobile Apps",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+},
+{
+    title: "Wordpress Design",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+},
 ];
 
 const skills = [{
@@ -82,19 +133,7 @@ const skills = [{
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
@@ -161,7 +200,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "MAdrienne81@outlook.com",
-    YOUR_FONE: "(480)853-6390",
+    YOUR_FONE: "+1 (480)853-6390",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -171,16 +210,16 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/DukeDennis2",
-    facebook: "https://facebook.com",
-    linkedin: "https://www.linkedin.com/in/miguel-corachea-8a5850234/",
+    github: "https://github.com/DukeDennis2", 
+    facebook: "https://facebook.com", 
+    linkedin: "https://www.linkedin.com/in/miguel-corachea-8a5850234/", 
     twitter: "https://twitter.com",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    achievements,
     skills,
     services,
     introdata,

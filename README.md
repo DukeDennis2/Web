@@ -1,6 +1,6 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
+My personal portfolio website built with React. 
 
 ### [live preview](https://ubaimutl.github.io/react-portfolio/)
 
@@ -16,9 +16,12 @@ A simple portfolio template for developer/designers built with React.
 
 ### Running the server 
 
-On terminal, run npm install, this will install all the dependencies listed within the package.json.
+If you run npm start, and its giving you error, it means you don't have the requirements to start the server. 
+    To solve this issue:
+        On terminal, run npm install, this will install all the dependencies listed within the package.json.
 
-Then run npm start, this will start the server and you can view the application at http://localhost. 
+    [once the dependencies have been stopped]
+        Then run npm start, this will start the server and you can view the application at http://localhost. 
 
 ### Push + Pull changes to your github [developer's info]
     1. git init
