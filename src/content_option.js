@@ -67,15 +67,30 @@ const achievements = [{
         date: "2014-2021",
     },
     {
-        awardtitle: "",
-        where: "ALquds",
+        awardtitle: "Nominated as captain for my Secondary's School's basketball team",
+        where: "JHN",
+        date: "2015-21",
+    },
+    {
+        awardtitle: "Received award for outstanding progress in GCSE",
+        where: "JHN",
         date: "2019",
+    },
+    {
+        awardtitle: "successfully won the won the district cup final alongside my basketball team ",
+        where: "JHN",
+        date: "2017",
+    },
+    {
+        awardtitle: "was named a nominee for sportsman of the year",
+        where: "JHN",
+        date: "2017",
     },
 ];
 
 const services = [{
-    title: "UI & UX Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Mainframe Developer",
+    description: "Completed a 4-week training program for entry-level mainframe developer where I studied and applied foundational skills whilst operating on mainframe system.  ",
 },
 {
     title: "Mobile Apps",
